@@ -1,0 +1,1 @@
+this is my file. it has charecters. we use open syscall to get the fild discriptor, and use read, write and lseek to jump across the file.
