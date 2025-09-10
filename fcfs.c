@@ -61,9 +61,9 @@ void fcfs(Process processes[], int n) {
 
     for (int i = 0; i < n; i++) {
         // Handle CPU idle time if arrival is later than current time
-        if (processes[i].arrivalTime > elapsedTime) {
+        if (processes[i].arrivalTime > elapsedTime) 
             elapsedTime = processes[i].arrivalTime ;
-        }
+        
 
         int temp = elapsedTime;
 

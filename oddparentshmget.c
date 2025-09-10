@@ -31,7 +31,7 @@ int main() {
     // Create child process
     if ((child_pid = fork()) == 0) {
         // In child process: replace with child program
-        execlp("./child", "./child", NULL);
+        execlp("./child", "child", NULL);
     } else {
         // In parent process: wait for child to finish
         wait(NULL);

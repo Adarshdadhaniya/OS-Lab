@@ -42,7 +42,6 @@ void sjfNP(Process processes[], int n) {
     int totalWaitingTime = 0;
     int totalTurnAroundTime = 0;
     int totalResponseTime = 0;
-    int completed = 0;
     int elapsedTime = 0;
     int remainingProcesses = n;
 
